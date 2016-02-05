@@ -4,12 +4,10 @@ import java.util.ArrayList;
 
 public class WebSite {
 	
-	public static String    UrlBase;
-	private static String[] ProTags;
-	private static String[] ConTags;
+	public static String baseURL;
 
     public WebSite() { }
     
 	public String GetPagination(int i) { return ""; }
-	public String GetUrl() { return UrlBase; }
+	public String GetUrl() { return baseURL; }
 }
