@@ -17,7 +17,7 @@ public class WebSite {
 	}
 
 	private void buildURL(){
-		this.baseURL = this.protocol + "://www." + this.baseURL + this.extension;
+		this.baseURL = this.protocol + "://www." + this.baseURL + "." + this.extension + "/";
 	}
 
 	public String getURL(){
