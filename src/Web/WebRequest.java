@@ -12,7 +12,7 @@ public class WebRequest {
     	int numberOfPage = startIndex + endIndex;
     	
     	for(int i = startIndex, j = 0; i < numberOfPage; i++, j++){
-	        URL _url = new URL(website.GetUrl() + (startIndex > 0 ? website.GetPagination(i) : ""));
+	        URL _url = new URL(website.getURL());
 	        URLConnection yc = _url.openConnection();
 	        BufferedReader in = new BufferedReader(new InputStreamReader(
 	                                    yc.getInputStream()));

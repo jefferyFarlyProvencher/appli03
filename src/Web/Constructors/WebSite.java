@@ -20,7 +20,7 @@ public class WebSite {
 		this.baseURL = this.protocol + "://www." + this.baseURL + this.extension;
 	}
 
-	public String GetURL(){
+	public String getURL(){
 		return this.baseURL;
 	}
 }
